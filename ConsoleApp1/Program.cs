@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             Program p =new Program();
            int r= p.testing();
-           Console.WriteLine("Hello world:" +r);
+           Console.WriteLine("Sum is :" + r);
         }
 
         public int testing()
