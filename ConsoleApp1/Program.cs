@@ -10,7 +10,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("Hello world");
+            Program p =new Program();
+           int r= p.testing();
+           Console.WriteLine("Hello world:" +r);
+        }
+
+        public int testing()
+        {
+            int a = 12;
+            int b = 12;
+            int c = a + b;
+            return c;
         }
     }
 }
