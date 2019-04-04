@@ -17,6 +17,7 @@ namespace ConsoleApp1
 
         public int testing()
         {
+            //comments
             int a = 12;
             int b = 12;
             int c = a + b;
